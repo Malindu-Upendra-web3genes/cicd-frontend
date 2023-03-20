@@ -27,8 +27,8 @@ jobs:
       id: deploy
       run: |
         aws deploy create-deployment \
-        --application-name cicd-backend \
-        --deployment-group-name cicd-backend-codedeploy \
+        --application-name cicd-frontend \
+        --deployment-group-name cicd-frontend-codedeploy-group \
         --deployment-config-name CodeDeployDefault.OneAtATime \
         --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
 
