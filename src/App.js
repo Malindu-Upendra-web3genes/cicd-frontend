@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Testing CICD with react
+          asdfghjklqwertyuiop
         </p>
         <a
           className="App-link"
