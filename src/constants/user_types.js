@@ -1,0 +1,4 @@
+const TYPE_SP_ADMIN = 'SP_ADMIN';
+const TYPE_ADMIN = 'ADMIN';
+
+export { TYPE_SP_ADMIN, TYPE_ADMIN };

@@ -1,0 +1,50 @@
+.static-alert {
+    position: absolute;
+    left: 50%;
+    top:0;
+
+    .alert {
+        position: relative;
+        left: -50%;
+        display: flex;
+        background-color:white ;
+        padding: 25px;
+        border-radius: 5px;
+        align-items: center;
+        gap:10px;
+    }
+
+    .alert-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:24px;
+        height: 24px;
+        border-radius: 12px;
+        background-color: #1EE30D;
+        font-size: 18px;
+        color: white;
+    }
+
+    .message {
+        color: black;
+    }
+
+    .close-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:24px;
+        height: 24px;
+        border-radius: 12px;
+        color: black;
+        font-size: 25px;
+    }
+
+    
+}
+
+.static-alert-dissapear {
+    display: none;
+}
+
