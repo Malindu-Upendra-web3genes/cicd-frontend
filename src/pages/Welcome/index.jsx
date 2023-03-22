@@ -126,7 +126,7 @@ function Welcome() {
         <Stack gap={40}>
           <TextField
             id="email"
-            label="Email"
+            label="Email testing from cicd"
             placeholder="email"
             type="text"
             value={email}
