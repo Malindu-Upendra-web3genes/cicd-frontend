@@ -100,7 +100,7 @@ function Welcome() {
         }
       }
     } catch (err) {
-      if ( PROP_RESPONSE in err)
+      if (PROP_RESPONSE in err)
         if (PROP_DATA in err.response)
           if (PROP_MESSAGE in err.response.data) {
             setMessage(err.response.data.message);
