@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/cicd-frontend
+    destination: /home/ec2-user/buyasia/cicd-frontend
 hooks:
 #  ApplicationStop:
 #  DownloadBundle:
